@@ -130,7 +130,7 @@ h2 {
 }
 
 .projectname {
-    margin-bottom: 10px;                /* Adds space below each project name */
+    margin-bottom: 7px;                /* Adds space below each project name */
     font-size: 20px;                    /* Larger font size for the project name */
     text-align: center;                 /* Centers the project name text */
 }
