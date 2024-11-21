@@ -195,3 +195,66 @@ h2 {
 .social-icon:hover {
     transform: scale(1.2);           /* Enlarges icon on hover */
 }
+
+
+#about p, #skills p {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust top navigation for smaller screens */
+    .topnav .list-items {
+        flex-direction: row; /* Stack navigation items vertically */
+        align-items: center;    /* Center navigation items */
+    }
+
+    .hero-text {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    .resumebtn {
+        padding: 8px 10px; /* Adjust button padding */
+        font-size: 12px;   /* Reduce font size */
+    }
+
+    #about, #skills, #projects {
+        padding: 10px; /* Add padding for smaller screens */
+    }
+
+    .skills-container {
+        flex-direction: column; /* Stack skills vertically */
+        gap: 10px;              /* Reduce gap between skill cards */
+    }
+
+    .skill-card {
+        width: 100px; /* Adjust skill card width */
+    }
+
+    .project-grid {
+        flex-direction: column; /* Stack project cards vertically */
+        gap: 15px;              /* Adjust spacing between cards */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 18px; /* Further reduce heading size */
+    }
+
+    .hero-text p {
+        font-size: 14px; /* Reduce paragraph size */
+    }
+
+    .skills-container, .project-grid {
+        gap: 10px; /* Narrow spacing on very small screens */
+    }
+
+    .social-links img {
+        width: 25px; /* Shrink social icons */
+        height: 25px;
+    }
+
+    .project-card {
+        padding: 15px; /* Adjust project card padding */
+    }
+}
