@@ -20,7 +20,7 @@ function typeWriter(element, text, speed) {
  
 
 function downloadResume() {
-    const fileUrl = './Images/ArResume.docx'; // Ensure the file path is correct
+    const fileUrl = './images/ArResume.docx'; // Ensure the file path is correct
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'Aravind_Doosa_Resume.docx'; // Set the download file name
