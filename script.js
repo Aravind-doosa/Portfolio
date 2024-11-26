@@ -19,13 +19,13 @@ function typeWriter(element, text, speed) {
   typeWriter(headerElement, headerText, 50); // For h1
  
 
-  function downloadResume() {
-    const fileUrl = './images/ArResume.docx'; // Ensure the file path is correct
+function downloadResume() {
+    const fileUrl = './Images/ArResume.docx'; // Ensure the file path is correct
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'Aravind_Doosa_Resume.docx'; // Set the download file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  }
+}
   
