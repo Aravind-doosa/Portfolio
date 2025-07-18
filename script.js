@@ -20,7 +20,7 @@ function typeWriter(element, text, speed) {
  
 
   function downloadResume() {
-    const fileUrl = './Images/Doosa.pdf'; 
+    const fileUrl = './Images/Aravind Doosa.pdf'; 
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'Aravind_Doosa.pdf'; 
